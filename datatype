@@ -1,0 +1,31 @@
+
+		import java.io.*;
+		import java.util.*;
+		import java.text.*;
+		import java.math.*;
+		import java.util.regex.*;
+
+		public class Variabledemo {
+			
+		    public static void main(String[] args) {
+		    	int i = 4;
+		        double d = 4.0;
+		        String s = "HackerRank ";
+				
+		        Scanner scan = new Scanner(System.in);
+		        int v1=scan.nextInt();
+		        double v2=scan.nextDouble();
+		        scan.nextLine();
+		        String v3=scan.nextLine();
+		        
+		       int  sum=i+v1;
+		          System.out.println(sum);
+		      
+				double sum1=d+v2;
+		        System.out.println(sum1);
+		       
+		        String s1= s+v3;
+		        System.out.println(s1);
+		        scan.close();
+		    }
+		}
